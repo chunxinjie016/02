@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:id="@+id/caidan">
+        <Button
+            android:onClick="toggleMenu"
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:textStyle="bold"
+            android:id="@+id/back"
+            android:text="返回"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:textStyle="bold"
+            android:layout_alignParentRight="true"
+            android:id="@+id/save"
+            android:text="保存" />
+    </RelativeLayout>
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:gravity="top"
+        android:id="@+id/ettext"
+        android:textStyle="italic"
+        android:layout_weight="1"/>
+
+
+</LinearLayout>
